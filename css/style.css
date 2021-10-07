@@ -46,6 +46,10 @@ li{
     width: 100%;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 
 .btn-blue a{
     background-color: #0061ff;
@@ -179,6 +183,32 @@ main{
 
 
 /* debug  */
+
+.debug #section1{
+    height: 800px;
+    background-color: yellow;
+}
+
+.debug #section1 .titolo{
+    width: 100%;
+    height: 300px;
+    margin-top: 200px;
+    background-color: green
+    ;
+}
+
+.debug #section1 .row{
+    width:100%;
+    height: 300px;
+    background-color: red;
+}
+
+.debug #section1 .clm{
+    width:calc(100% / 3 - 1px);
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid black;
+}
 
 /* .debug nav {
     background-color: pink;

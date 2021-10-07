@@ -21,6 +21,14 @@
     clear: both;
 }
 
+.mar-top-20{
+    margin-top: 20px;
+}
+
+.mar-top-50{
+    margin-top: 50px;
+}
+
 .row::after{
     content: '';
     display: table;
@@ -31,10 +39,17 @@ a{
     text-decoration: none;
 }
 
-
+i{
+    margin-right: 3px;
+}
 
 li{
     list-style: none;
+}
+
+.container-70{
+    width: 70%;
+    margin: auto;
 }
 
 .container-80{
@@ -46,8 +61,20 @@ li{
     width: 100%;
 }
 
+.border{
+    border: 1px solid lightgray;
+}
+
+.border-btm{
+    border-bottom: 1px solid lightgray;
+}
+
 .bold{
     font-weight: bold;
+}
+
+.light-gray{
+    color: lightgray;
 }
 
 
@@ -74,8 +101,11 @@ li{
 
 
 
+
 /* header  */
 
+
+/* ##navbar##  */
 nav{
     position: fixed;
     top: 0;
@@ -83,6 +113,7 @@ nav{
     width: 100%;
     height: 80px;
     background-color: white;
+    z-index: 3;
 }
 
 nav .row{
@@ -131,13 +162,13 @@ nav .logo{
     width: 100%;
     height: 720px;
     padding-top:50px;
-    padding-left:100px;
+    padding-left:19%;
     padding-bottom: 200px;  
  }
 
 .jumbo-img img{
     top: 380px;
-    left: 30%;
+    left: 40%;
     height: 500px;
 }
 
@@ -195,26 +226,88 @@ main{
 
 #section1 .piano-dropbox input{
     display: inline-block;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
-#section1 .row{
+section .row{
     width:100%;
 }
 
-#section1 .clm{
+section .clm{
     display: inline-block;
     width:calc(100% / 3 - 20px);
-    height: 200px;
-    /* margin: 0px 20px ; */
-    background-color: #fff;
-    border: 1px solid black;}
+    min-height: 1500px;
+}
+    
 
-#section1 .clm:nth-child(even){
+section .clm:nth-child(even){
     margin: 0 30px;
 }
 
+section .clm h5{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 20px;
+}
 
+section .clm h4{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+section .clm .lista-top ul li{
+    margin: 30px 0;
+    font-weight: 500;
+}
+
+
+
+
+.clm .btn-blue{
+display: block;
+   text-align: center;
+   padding: 0 0px;
+   margin: 10 0px;
+}
+
+.acq-ora{
+    padding-bottom: 50px;
+}
+
+.acq-ora a{
+    color:#0061ff ;
+}
+
+.acq-ora a:hover{
+    text-decoration: underline;
+}
+
+.acq-ora::after{
+    content: '';
+    display: block;
+    position: relative;
+    width: 16%;
+    border: 1px solid #8989896b;
+    margin-top: 40px;
+}
+
+.lista-bottom .punti{
+    display: block;
+    font-size: 20px;
+}
+
+.lista-bottom ul li{
+    font-size: 19px;
+    text-align:;
+    padding-left:px ;
+    
+}
+.lista-bottom  i{
+    color: #0061ff;
+    margin-left: 10px;
+    
+}
 
 /* footer  */
 

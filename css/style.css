@@ -31,6 +31,10 @@ a{
     text-decoration: none;
 }
 
+li{
+    list-style: none;
+}
+
 .container-80{
     width: 80%;
     margin: auto;
@@ -38,6 +42,16 @@ a{
 
 .container-100{
     width: 100%;
+}
+
+
+.btn-blue a{
+    background-color: #0061ff;
+    margin:0px 20px;
+    height: 40px;
+    color: white;
+    padding: 10px 15px;
+    font-weight: 600;
 }
 
 
@@ -52,6 +66,39 @@ nav{
     height: 80px;
 }
 
+nav .row{
+   line-height: 80px;
+}
+
+nav .row li
+{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+nav .row li{
+    margin: 0 10px;
+}
+
+nav .row li a{
+    color: black;
+    font-weight: 600;
+}
+
+
+nav .row img{
+    display: inline-block;
+    vertical-align: middle;
+    object-fit: cover;
+    padding-bottom: 8px;
+}
+
+
+nav .logo{
+    margin:0 20px;
+}
+
+
 
 
 /* main */
@@ -65,7 +112,7 @@ main{
 
 /* debug  */
 
-.debug nav {
+/* .debug nav {
     background-color: pink;
-}
+} */
 

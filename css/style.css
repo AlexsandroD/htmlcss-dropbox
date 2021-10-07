@@ -178,6 +178,43 @@ main{
     margin-top: 80px;
 }
 
+/* #setction1#  */
+
+/* #piano-drop#box  */
+
+#section1 .piano-dropbox{
+    width: 100%;
+    margin-top: 200px;
+    
+}
+
+#section1 .piano-dropbox h2{
+    font-size: 50px;
+    padding-bottom: 70px;
+}
+
+#section1 .piano-dropbox input{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+#section1 .row{
+    width:100%;
+}
+
+#section1 .clm{
+    display: inline-block;
+    width:calc(100% / 3 - 20px);
+    height: 200px;
+    /* margin: 0px 20px ; */
+    background-color: #fff;
+    border: 1px solid black;}
+
+#section1 .clm:nth-child(even){
+    margin: 0 30px;
+}
+
+
 
 /* footer  */
 
@@ -186,28 +223,27 @@ main{
 
 .debug #section1{
     height: 800px;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
-
+/* 
 .debug #section1 .titolo{
     width: 100%;
-    height: 300px;
     margin-top: 200px;
     background-color: green
     ;
-}
+} */
 
-.debug #section1 .row{
+/* .debug #section1 .row{
     width:100%;
     height: 300px;
     background-color: red;
-}
+} */
 
-.debug #section1 .clm{
+/* .debug #section1 .clm{
     width:calc(100% / 3 - 1px);
     height: 200px;
     background-color: #fff;
-    border: 1px solid black;
+    border: 1px solid black; */
 }
 
 /* .debug nav {

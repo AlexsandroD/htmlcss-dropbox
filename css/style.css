@@ -31,6 +31,8 @@ a{
     text-decoration: none;
 }
 
+
+
 li{
     list-style: none;
 }
@@ -52,6 +54,10 @@ li{
     color: white;
     padding: 8px 20px;
     font-weight: 600;
+}
+
+.btn-blue:hover{
+    opacity: 0.5;
 }
 
 .pos-rel{
@@ -90,8 +96,13 @@ nav .row li{
 }
 
 nav .row li a{
+    font-size: 20px;
     color: black;
-    font-weight: 600;
+    font-weight: 400;
+}
+
+nav .row li a:hover{
+text-decoration: underline;
 }
 
 
@@ -99,13 +110,14 @@ nav .row img{
     display: inline-block;
     vertical-align: middle;
     object-fit: cover;
-    padding-bottom: 8px;
+    padding-bottom: 5px;
 }
 
 
 nav .logo{
     margin:0 20px;
 }
+
 
 /* ####Jumbo section####  */
 
@@ -130,7 +142,7 @@ nav .logo{
 }
 
 h1{
-    width: 80%;
+    width: 85%;
     font-size: 90px;
     padding-bottom: 30px;
 }

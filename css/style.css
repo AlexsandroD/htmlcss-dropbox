@@ -244,7 +244,7 @@ h1{
 
  section .clm {
      display: inline-block;
-     width: calc(100% / 3 - 20px);
+     width: calc(100% / 3 - 40px);
      min-height: 1200px;
  }
 
@@ -418,6 +418,22 @@ section#section2 .row .btn-blue a{
     ;
 }
 
+/* card section  */
+.operazioni .row .clm{
+    min-height:max-content
+}
+
+.operazioni .row .clm img{
+    width: 100%;
+}
+
+.operazioni .row .clm p{
+    font-size: 21px;
+}
+
+.underline{
+    text-decoration: underline;
+}
 
 
 

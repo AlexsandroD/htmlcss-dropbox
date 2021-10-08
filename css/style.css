@@ -79,7 +79,7 @@
  }
 
  .light-gray {
-     color: lightgray;
+     color: hsl(208deg 11% 48%);
  }
 
 
@@ -245,7 +245,7 @@ h1{
  section .clm {
      display: inline-block;
      width: calc(100% / 3 - 20px);
-     min-height: 1500px;
+     min-height: 1200px;
  }
 
 
@@ -315,12 +315,10 @@ h1{
 }
 
 .lista-top i{
-    color: #black;
-    text-align: left;
-    margin-left: -25px;
-
+    color:black;
+    text-align:left;
+    margin-left:-25px;
 }
-
  .lista-bottom ul li{
      font-size: 18px;
      padding-left:25px;
@@ -333,6 +331,50 @@ h1{
      margin-left: -25px;
 
  }
+
+ section#section1 .custom{
+margin-top: 50px;}
+
+section#section1 .row{
+    padding-bottom: 50px;
+}
+
+ section#section1 .custom h5{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+section#section1 .custom .clm-sx{
+    font-size: 20px;
+    text-align: left;
+    line-height: 2.6;
+    width: 70%;
+    padding-left: 40px;
+}
+
+section#section1 .custom .clm-sx h3{
+    font-size: 30px;
+}
+
+section#section1 .custom .clm-sx p{
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+section#section1 .custom .clm-dx{
+    text-align: center;
+    width: 30%;
+    padding-right: 0;
+}
+section#section1 .custom .btn-blue a{
+    display: block;
+    width: 80%;
+    margin-left: 65px;
+    
+  }
+
+
 
  /* footer  */
 

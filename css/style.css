@@ -51,7 +51,7 @@
  }
 
  .container-70 {
-     width: 70%;
+     width: 68%;
      margin: auto;
  }
 
@@ -104,7 +104,9 @@
      position: absolute;
  }
 
-
+ .font-big {
+    font-size: 60px;
+}
  .underline{
     text-decoration: underline;
 }
@@ -289,7 +291,7 @@ h1{
  section#section1 .clm {
      display: inline-block;
      width: calc(100% / 3 - 20px);
-     min-height: 1200px;
+     min-height: 1340px;
  }
 
 
@@ -481,6 +483,20 @@ section#section2 .row .btn-blue a{
 }
 
 
+/* #section3  */
+.h-team {
+    margin-bottom: 50px;
+}
+
+.h-team a{
+    color: #478dff;
+    text-decoration: underline;
+}
+.h-team h3{
+    text-align:unset;
+    width:75%;
+    font-size: 45px;
+}
 /* company-box  */
 
 .row .company{

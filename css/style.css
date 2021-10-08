@@ -105,6 +105,15 @@
  }
 
 
+ .underline{
+    text-decoration: underline;
+}
+
+.operazioni h3{
+    font-size:80px;
+    padding:20px 0;
+}
+
 
 
  /* header  */
@@ -242,9 +251,9 @@ h1{
      width: 100%;
  }
 
- section .clm {
+ section#section1 .clm {
      display: inline-block;
-     width: calc(100% / 3 - 40px);
+     width: calc(100% / 3 - 20px);
      min-height: 1200px;
  }
 
@@ -421,7 +430,8 @@ section#section2 .row .btn-blue a{
 /* card section  */
 
 .operazioni .row .clm{
-    padding-bottom: 20px;
+    padding-bottom: 20px; 
+    width: calc(100% / 3 - 40px);
     min-height: max-content;
    
 }
@@ -433,10 +443,6 @@ section#section2 .row .btn-blue a{
 .operazioni .row .clm p{
     font-size: 21px;
     padding-bottom: 150px;
-}
-
-.underline{
-    text-decoration: underline;
 }
 
 
@@ -455,10 +461,10 @@ section#section2 .row .btn-blue a{
 
 
 
- .debug #section1 {
+ /* .debug #section1 {
      height: 800px;
      /* background-color: yellow; */
- }
+
 
  /* 
 .debug #section1 .titolo{

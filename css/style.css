@@ -419,8 +419,11 @@ section#section2 .row .btn-blue a{
 }
 
 /* card section  */
+
 .operazioni .row .clm{
-    min-height:max-content
+    padding-bottom: 20px;
+    min-height: max-content;
+   
 }
 
 .operazioni .row .clm img{
@@ -429,6 +432,7 @@ section#section2 .row .btn-blue a{
 
 .operazioni .row .clm p{
     font-size: 21px;
+    padding-bottom: 150px;
 }
 
 .underline{

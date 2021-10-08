@@ -114,6 +114,41 @@
     padding:20px 0;
 }
 
+/* colori bg  */
+
+.verde{
+    background-color: #a3d39c;
+}
+
+.vinaccio{
+    background-color: #61082b;
+}
+
+.celeste{
+    background-color: #0093ce;
+}
+
+.arancione{
+    background-color: #ff1c1c;
+}
+
+.rosso-scuro{
+    background-color:#d5001f;
+}
+
+.celeste-chiaro{
+    background-color:#b4d0e7 ;
+}
+
+.blue-scuro{
+    background-color: #0d2481;
+}
+
+.giallo-paglia{
+    background-color:#ffd830;
+}
+
+
 
 
  /* header  */
@@ -446,7 +481,60 @@ section#section2 .row .btn-blue a{
 }
 
 
+/* company-box  */
 
+.row .company{
+    width: 100vh;
+}
+
+.row .company-container{
+    line-height: 200px;
+    height: 400px;
+    width: 30%;
+ 
+}
+
+.row .company-description{
+    width: 40%;
+    height: 400px;
+    background-color:#f5f5f5;
+}
+
+.box-company{
+    float: left;
+    width: calc(100% / 2);
+    height: calc(100%/ 2);
+    text-align: center;
+   
+}
+
+.box-company img{
+    width: 50%;
+    filter: invert();
+    vertical-align: middle;
+}
+
+ .img-logo-uni{
+   padding-bottom: 10px;
+    margin: 30px 0px;
+}
+
+.img-logo-uni img{
+    width: 40%;
+}
+
+.company-description .container-70{
+    padding-top: 20px;
+}
+
+.company-description .img-logo-uni::after{
+    content: '';
+    display: block;
+    position: relative;
+    width: 10%;
+    border: 1px solid #8989896b;
+    margin-top: 8%;
+}
 
   
 
@@ -457,6 +545,21 @@ section#section2 .row .btn-blue a{
 
 
  /* debug  */
+
+
+
+/* .debug .box-uni{
+    border: 1px solid black;
+} */
+
+
+/* .debug .company-description{
+    width: 40%;
+    height: 400px;
+    background-color:#f5f5f5;
+} */
+
+
 
 
 

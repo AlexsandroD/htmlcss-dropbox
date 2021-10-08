@@ -184,14 +184,17 @@ h1{
 }
 
 
+
 #jumbo .container-80 .sx{
-    width: 40%;   
+    width: 40%; 
+    padding-right: 30px; 
 }
 
 
 #jumbo .container-80 .dx{
     width: 60%;
     max-height:500px;
+    padding-left: 0px;
 }
 
 #jumbo .container-100 .sx .btn-blue{
@@ -270,10 +273,12 @@ h1{
 
 
 
- .clm .btn-blue {
+ .clm .btn-blue a{
      display: block;
+     width: 100%;
+     margin: auto;
      text-align: center;
-     padding: 0 0px;
+     
      margin: 10 0px;
  }
 
@@ -303,15 +308,29 @@ h1{
      font-size: 20px;
  }
 
- .lista-bottom ul li {
-     font-size: 19px;
-     padding-left: px;
+ .lista-top ul li{
+    font-size: 18px;
+    padding-left:25px;
+
+}
+
+.lista-top i{
+    color: #black;
+    text-align: left;
+    margin-left: -25px;
+
+}
+
+ .lista-bottom ul li{
+     font-size: 18px;
+     padding-left:25px;
 
  }
 
- .lista-bottom i {
+ .lista-bottom i{
      color: #0061ff;
      text-align: left;
+     margin-left: -25px;
 
  }
 

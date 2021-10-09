@@ -745,6 +745,10 @@ footer .clm-list{
      color: white;
  }
 
+ li:not(:first-of-type):hover{
+     opacity: 0.6;
+ }
+
  footer li:first-child{
      font-size: 20px;
      margin-bottom:20px;

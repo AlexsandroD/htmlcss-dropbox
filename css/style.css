@@ -595,114 +595,62 @@ text-align: center;
 #section4  h2{
     font-size: 2em;
     margin-top: 150px;
-   padding-bottom: 20px;
+   padding-bottom: 60px;
 }
-.container {
-    margin: 0 auto;
-    padding: 4rem;
-    width: 48rem;
-  }
-  
-  .accordian{
-      border-top: 1px solid lightgray;
-      border-top: 1px solid lightgray;
-  }
 
-  .accordion .accordion-item  {
-    border-top: 1px solid lightgray;
-  }
+.accordion{
+    border-bottom: 1px solid lightgray;
+}
 
-  #accordion-button-1{
-      padding-top: 3em;
-  }
-
-  .accordion button {
-    position: relative;
-    display: block;
-    text-align: left;
+.accordion__btn {
+    background-color: white;
+    font-size: 1em;
+    cursor: pointer;
     width: 100%;
-    padding: 1em 0;
-    margin-right: 50px;
-    color: black;
-    font-size: 1.1em;
-    font-weight: 400;
     border: none;
-    background: none;
+    border-top: 1px solid lightgray;
     outline: none;
+    transition: 0.4s;
+    padding: 30px 0;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
-  .accordion button:hover, .accordion button:focus {
-    cursor: pointer;
-    color: black;
-  }
-  .accordion button:hover::after, .accordion button:focus::after {
-    cursor: pointer;
-    color: black;
-    border: 1px solid black;
-  }
-  .accordion button .accordion-title {
-    padding: 1.0em 1.5em 1em 0;
-    margin-top: 1em;
-  }
-  .accordion button .icon{
-   
-    display: inline-block;
-    position: absolute;
-    top: 52px;
-    right: 0;
-    width: 22px;
-    height: 22px;
   
+  .accordion__btn-icon {
+    height: 32px;
+    width: 32px;
+    margin-left: 5px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: 0.3s;
   }
-
-  .accordian button .icon::before{
-    display: block;
-    position: absolute;
-    content: "";
-    top: 9px;
-    left: 5px;
-    width: 10px;
-    height: 2px;
-    background: currentColor;
+  .accordion__btn-icon:after {
+    content: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.3902 13.3371L14.8402 8.79221C14.9433 8.6871 15 8.54677 15 8.39715C15 8.24753 14.9433 8.10721 14.8402 8.00209L14.5126 7.66739C14.2991 7.4496 13.9521 7.4496 13.739 7.66739L10.0021 11.4838L6.26105 7.66316C6.15804 7.55804 6.02072 7.5 5.8743 7.5C5.72772 7.5 5.5904 7.55804 5.48731 7.66316L5.15975 7.99786C5.05675 8.10306 5 8.2433 5 8.39292C5 8.54254 5.05675 8.68286 5.15975 8.78798L9.61386 13.3371C9.7172 13.4425 9.85516 13.5003 10.0018 13.5C10.1491 13.5003 10.2869 13.4425 10.3902 13.3371Z' fill='%23ACB1B9'/%3E%3C/svg%3E%0A");
+    width: 20px;
+    height: 20px;
   }
-
-  .accordin button .icon::after{
-    display: block;
-    position: absolute;
-    content: "";
-    top: 5px;
-    left: 9px;
-    width: 2px;
-    height: 10px;
-    background: currentColor;
+  .accordion__btn-icon.rotated {
+    transform: rotate(-180deg);
   }
-
-
   
-  .accordion button[aria-expanded=true] {
-    color: black;
-  }
-  .accordion button[aria-expanded=true] .icon::after {
-    width: 0;
-  }
-  .accordion button[aria-expanded=true] + .accordion-content {
-    opacity: 1;
-    max-height: 9em;
-    transition: all 200ms linear;
-    will-change: opacity, max-height;
-  }
-  .accordion .accordion-content {
-    opacity: 0;
+  .accordion__content {
+    background-color: white;
     max-height: 0;
     overflow: hidden;
-    transition: opacity 200ms linear, max-height 200ms linear;
-    will-change: opacity, max-height;
+    transition: all 0.5s ease-out;
   }
-  .accordion .accordion-content p {
-    font-size: 1rem;
-    font-weight: 300;
-    margin: 0.5em 0;
+  
+  .accordion__content-data {
+    padding: 12px;
   }
-
+  .accordion__content-data .accordion-list {
+    margin-top: 12px;
+  }
 
   /* #Footer  */
   
@@ -775,7 +723,7 @@ footer .clm-list{
 .dropbtn {
     background-color: #2c2f33;
     color: #5f5f5f;
-    padding: 10px 0px;
+    padding: 0px 0px;
     font-size: 16px;
     border: none;
   }
@@ -790,8 +738,9 @@ footer .clm-list{
     position: absolute;
     background-color: #2c2f33;
     min-width: 160px;
+    
     bottom: 50px;
-    z-index: 1;
+    z-index: 2;
   }
   
   .dropup-content a {

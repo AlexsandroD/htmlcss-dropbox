@@ -590,20 +590,179 @@ text-align: center;
     opacity: 0.5;
 }
 
+/* sezione faq  */
+
+#section4  h2{
+    font-size: 2em;
+    margin-top: 150px;
+   padding-bottom: 20px;
+}
+.container {
+    margin: 0 auto;
+    padding: 4rem;
+    width: 48rem;
+  }
   
+  .accordian{
+      border-top: 1px solid lightgray;
+      border-top: 1px solid lightgray;
+  }
+
+  .accordion .accordion-item  {
+    border-top: 1px solid lightgray;
+  }
+
+  #accordion-button-1{
+      padding-top: 3em;
+  }
+
+  .accordion button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    margin-right: 50px;
+    color: black;
+    font-size: 1.1em;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  .accordion button:hover, .accordion button:focus {
+    cursor: pointer;
+    color: black;
+  }
+  .accordion button:hover::after, .accordion button:focus::after {
+    cursor: pointer;
+    color: black;
+    border: 1px solid black;
+  }
+  .accordion button .accordion-title {
+    padding: 1.0em 1.5em 1em 0;
+    margin-top: 1em;
+  }
+  .accordion button i {
+   
+    display: inline-block;
+    position: absolute;
+    top: 52px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+  
+  }
+
+  .accordian button .fas::before{
+    display: block;
+    position: absolute;
+    content: "";
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+  }
+
+  .accordin button .fas::after{
+    display: block;
+    position: absolute;
+    content: "";
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
+  }
+  
+  .accordion button[aria-expanded=true] {
+    color: black;
+  }
+  .accordion button[aria-expanded=true] .icon::after {
+    width: 0;
+  }
+  .accordion button[aria-expanded=true] + .accordion-content {
+    opacity: 1;
+    max-height: 9em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0.5em 0;
+  }
 
 
+  /* #Footer  */
+  
+footer{
+    padding: 100px;
+    margin-top: 150px;
+    height: 500px;
+    background: #2c2f33;;
+}
+
+#footer-top{
+    border-bottom: 1px solid #255ee9;
+    padding-bottom: 20px;
+}
 
 
- /* footer  */
+#footer-top li:first-child a{
+    color:#255ee9 ;
+}
+
+footer .clm{
+    width: 30%;
+}
 
 
- /* debug  */
+footer .clm-list{
+    text-align: left;
+    width: calc(100% / 4);
+    padding-top: 20px;
+    padding-left: 30px;
+    
+}
+
+ footer .clm-list li{
+    list-style: none;
+    line-height: 2;
+    }
+ footer .clm-list li a{
+    font-weight: 200;
+     color: white;
+ }
+
+ footer li:first-child{
+     font-size: 20px;
+     margin-bottom:20px;
+     font-weight: 900;
+ }
+
+ 
+#footer-bottom{
+    width: 100%;
+    padding-top: 40px;
+}
+
 /* 
  .debug .testo{
      height: 350px;
      background-color: red;
  } */
+
+
+
 
 
 /* .debug .box-uni{

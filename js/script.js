@@ -12,5 +12,8 @@ function toggleAccordion() {
   }
 }
 
+const items = document.getElementById("icon-up").classList.toggle('display');
+
+
 items.forEach(item => item.addEventListener('click', toggleAccordion));
 

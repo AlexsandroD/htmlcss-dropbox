@@ -291,7 +291,7 @@ h1{
  section#section1 .clm {
      display: inline-block;
      width: calc(100% / 3 - 20px);
-     min-height: 1340px;
+     min-height: 1400px;
  }
 
 
@@ -442,7 +442,7 @@ section#section2 .row .dx{
 }
 
 section#section2 .row h3{
-    font-size: 35px;
+    font-size: 30px;
 }
 
 section#section2 .row p{
@@ -739,7 +739,7 @@ footer .clm-list{
     background-color: #2c2f33;
     min-width: 160px;
     
-    bottom: 50px;
+    bottom: 20px;
     z-index: 2;
   }
   

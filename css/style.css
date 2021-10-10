@@ -203,6 +203,34 @@
      margin: 0 20px;
  }
 
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    width:88%;
+    margin: 0 15px;
+    background-color: white;
+    z-index: 2;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+ 
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown i{
+      padding-left: 6px;
+  }
+
 
  /* ####Jumbo section####  */
 
@@ -630,7 +658,7 @@ text-align: center;
     transition: 0.3s;
   }
   .accordion__btn-icon:after {
-    content: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.3902 13.3371L14.8402 8.79221C14.9433 8.6871 15 8.54677 15 8.39715C15 8.24753 14.9433 8.10721 14.8402 8.00209L14.5126 7.66739C14.2991 7.4496 13.9521 7.4496 13.739 7.66739L10.0021 11.4838L6.26105 7.66316C6.15804 7.55804 6.02072 7.5 5.8743 7.5C5.72772 7.5 5.5904 7.55804 5.48731 7.66316L5.15975 7.99786C5.05675 8.10306 5 8.2433 5 8.39292C5 8.54254 5.05675 8.68286 5.15975 8.78798L9.61386 13.3371C9.7172 13.4425 9.85516 13.5003 10.0018 13.5C10.1491 13.5003 10.2869 13.4425 10.3902 13.3371Z' fill='%23ACB1B9'/%3E%3C/svg%3E%0A");
+    content: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20'  xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.3902 13.3371L14.8402 8.79221C14.9433 8.6871 15 8.54677 15 8.39715C15 8.24753 14.9433 8.10721 14.8402 8.00209L14.5126 7.66739C14.2991 7.4496 13.9521 7.4496 13.739 7.66739L10.0021 11.4838L6.26105 7.66316C6.15804 7.55804 6.02072 7.5 5.8743 7.5C5.72772 7.5 5.5904 7.55804 5.48731 7.66316L5.15975 7.99786C5.05675 8.10306 5 8.2433 5 8.39292C5 8.54254 5.05675 8.68286 5.15975 8.78798L9.61386 13.3371C9.7172 13.4425 9.85516 13.5003 10.0018 13.5C10.1491 13.5003 10.2869 13.4425 10.3902 13.3371Z' /%3E%3C/svg%3E%0A");
     width: 20px;
     height: 20px;
   }
@@ -693,14 +721,14 @@ footer .clm-list{
      color: white;
  }
 
- li:not(:first-of-type):hover{
+ footer li:not(:first-of-type):hover{
      opacity: 0.6;
  }
 
  footer li:first-child{
      font-size: 20px;
      margin-bottom:20px;
-     font-weight: 900;
+     font-weight: 900; 
  }
 
  

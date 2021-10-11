@@ -525,8 +525,14 @@ section#section2 .row .btn-blue a{
 
 .h-team a{
     color: #478dff;
-    text-decoration: underline;
+    
 }
+
+.h-team a:hover{
+    text-decoration: underline;
+    opacity: 0.5;
+}
+
 .h-team h3{
     text-align:unset;
     width:75%;
@@ -701,15 +707,6 @@ footer{
     background-color: #2c2f33;;
 }
 
-#footer-top{
-    border-bottom: 1px solid #255ee9;
-}
-
-
-#footer-top li:first-child a{
-    color:#255ee9 ;
-}
-
 footer .clm{
     width: 30%;
 }
@@ -728,11 +725,10 @@ footer .clm-list{
     line-height: 2;
     }
  footer .clm-list li a{
-    font-weight: 200;
      color: white;
  }
 
- footer li:not(:first-of-type):hover{
+ footer li:not(:first-child):hover{
      opacity: 0.6;
  }
 

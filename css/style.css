@@ -538,16 +538,15 @@ section#section2 .row .btn-blue a{
     width: 100vh;
 }
 
-.fake-button{
-    border:15px solid rgba(255, 255, 255, 0.363);
-    
-}
 
 .row .company-container{
     line-height: 200px;
     height: 400px;
     width: 30%;
- 
+}
+
+.row .company-container .box-company:hover{
+    border:15px solid rgba(255, 255, 255, 0.363);
 }
 
 .row .company-description{

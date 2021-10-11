@@ -187,7 +187,7 @@
 
  nav .row li a:hover {
      display: inline-block;
-     border-bottom: 2px solid black;
+     border-bottom: 2px solid #0061ff;
  }
 
 
@@ -228,7 +228,7 @@
   }
 
   .dropdown i{
-      padding-left: 6px;
+      padding-left: 3px;                            px;
   }
 
 
@@ -239,36 +239,44 @@
     margin-top: 80px;
     width: 100%;
     
+
+    
 }
 
 #jumbo img{
-    width: 100%;
+    width:120%;
+    height: 430px;
+    
 }
 
 #jumbo .container-80{
     max-width:1200px;
-    top: 60px;
+    top: 80px;
 }
 
 
 
 h1{
-    font-size: 60px;
+    font-size: 50px;
     padding-bottom: 30px;
 }
 
 
 
 #jumbo .container-80 .sx{
-    width: 40%; 
-    padding-right: 30px; 
+    width: 40%;  
+    font-size: 16px;
+}
+
+#jumbo .container-80 .sx p{
+ 
 }
 
 
 #jumbo .container-80 .dx{
     width: 60%;
     max-height:500px;
-    padding-left: 0px;
+    padding-left: 100px;
 }
 
 #jumbo .container-100 .sx .btn-blue{
@@ -280,10 +288,9 @@ h1{
 }
 
 .arrow{
-    padding-top: 20px;
+    padding-top: 40px;
     display: block;
-    font-size: 50px;
-    font-weight: 900;
+    font-size: 40px;
 }
 
 

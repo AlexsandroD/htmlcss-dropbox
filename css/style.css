@@ -234,6 +234,7 @@ background-color: #f2eee8;
       padding-left: 3px;                            
   }
 
+/* ####sezione menu dropdown a colonne ###### */
 .hidden-menu:hover{
     background-color: #f2eee8;
 }
@@ -242,31 +243,65 @@ background-color: #f2eee8;
     display: none;
     position: absolute;
     top: 50px;
-    width:400%;
+    width:300%;
     background-color:#f2eee8;
     z-index: 2; 
   }
 .menu .content{
-      width: 33.3%;
+      width: calc(100% / 3)
   }
 
 .hidden-menu:hover .menu{
       display: block;
       background-color: #f2eee8;
   }
+.hidden-menu .menu .content ul{
+    width:100%;
+}
 
-  .hidden-menu .menu a{
+
+.hidden-menu .menu a{
       margin: 10px 0px;
-      font-size: 12px;
+      font-size: 13px;
+      width: 100%;
   }
 
-  .hidden-menu .menu li{
+  
+.hidden-menu .menu h6{
       display: block;
-      padding: 0px;
+      padding: 15px;
+      margin:0px 0;
+      font-size: 14px;
   }
-  .hidden-menu .menu li:hover a{
-      background-color: gray;
+
+.hidden-menu .menu .content li{
+    display: block;
+    padding: 12px;
+    margin:0px 0;
+    width: 100%;
+
   }
+.hidden-menu .menu .content li:hover{
+      background-color: lightgray;
+      
+  }
+
+.hidden-menu .menu li:hover a{
+      border: none;
+      margin: 0;
+      padding: 0;
+  }
+
+
+  nav .hidden-menu .menu .row .content{
+      line-height:15px ;
+      padding-bottom: 5px;
+
+  }
+
+/* ####/fine menu dropdown a colonne####  */
+
+
   /* ####Jumbo section####  */
 
 #jumbo{

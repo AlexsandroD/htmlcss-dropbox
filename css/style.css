@@ -642,9 +642,10 @@ section#section2 .row .btn-blue a{
     width: 30%;
 }
 
+
+/* ###use tranform scale for button effect#### */
 .row .company-container .box-company:hover{
-    border:10px solid rgba(255, 255, 255, 0.363);
-    
+    transform:scale(0.90)
 }
 
 

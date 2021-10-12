@@ -238,23 +238,35 @@ background-color: #f2eee8;
     background-color: #f2eee8;
 }
 
-  .menu{
+.menu{
     display: none;
     position: absolute;
     top: 50px;
-    width:300%;
+    width:400%;
     background-color:#f2eee8;
     z-index: 2; 
   }
-  .menu .content{
-      width: 25%;
+.menu .content{
+      width: 33.3%;
   }
 
-  .hidden-menu:hover .menu{
+.hidden-menu:hover .menu{
       display: block;
       background-color: #f2eee8;
   }
 
+  .hidden-menu .menu a{
+      margin: 10px 0px;
+      font-size: 12px;
+  }
+
+  .hidden-menu .menu li{
+      display: block;
+      padding: 0px;
+  }
+  .hidden-menu .menu li:hover a{
+      background-color: gray;
+  }
   /* ####Jumbo section####  */
 
 #jumbo{

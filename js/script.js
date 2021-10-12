@@ -1,3 +1,5 @@
+
+
 const ACCORDION_LIST          = 'data-accordion-list'
 const ACCORDION_BUTTON        = 'data-accordion-button'
 const ACCORDION_ARROW         = 'data-accordion-arrow'
@@ -80,3 +82,6 @@ class Accordion {
 }
 
 Accordion.apply(document.querySelector(`[${ACCORDION_LIST}`))
+
+
+

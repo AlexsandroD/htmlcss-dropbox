@@ -399,9 +399,7 @@ h1{
  }
 
  section#section1 .clm {
-     display: inline-block;
-     width: calc(100% / 3 - 20px);
-     min-height: 1400px;
+    
  }
 
 
@@ -958,7 +956,6 @@ footer .clm-list{
     padding-left: 10px;
 }
 .textarea{
-    justify-content: space-between;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -972,6 +969,7 @@ footer .clm-list{
   
 }
 .send-btn{ 
+
     background-color: #fff;
     border: 0;
     outline: 0;
@@ -992,7 +990,10 @@ box-shadow: 0px 4px 8px #0065c8;
 transform: scale(0.98);
 }
 .send-icon{
-    text-align: center;  
+    justify-content: space-between;
+    text-align: center;
+   
+  
     padding-top: 5px;
 }
 

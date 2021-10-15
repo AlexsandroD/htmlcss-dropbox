@@ -6,6 +6,7 @@
      margin: 0;
      padding: 0;
      box-sizing: border-box;
+     transition: 0.2s;
  }
  body {
      font-family: 'Open Sans', sans-serif;
@@ -252,6 +253,7 @@ background-color: #f2eee8;
 }
 .menu .content{
       width: calc(100% / 3)
+      
   }
 
 .hidden-menu:hover .menu{
@@ -265,8 +267,8 @@ background-color: #f2eee8;
 }
 
 
-.hidden-menu .menu a{
-      margin: 10px 0px;
+.hidden-menu .menu li a{
+      margin: 0px 0px;
       font-size: 13px;
       width: 100%;
   }
@@ -274,7 +276,7 @@ background-color: #f2eee8;
   
 .hidden-menu .menu h6{
       display: block;
-      padding: 15px;
+      padding: 15px 10px;
       margin:0px 0;
       font-size: 14px;
   }
@@ -627,8 +629,17 @@ section#section2 .row .btn-blue a{
 
 /* ###use tranform scale for button effect#### */
 .row .company-container .box-company:hover{
-    transform:scale(0.90)
+    outline: 15px solid rgba(255, 255, 255, 0.274);
+    outline-offset: -15px;
 }
+
+.row .company-container .box-company:hover img{
+    transform: scale(1.1);
+}
+
+.row .company-container .box-company:active img{
+    transform: scale(0.95);}
+
 
 
 
@@ -998,10 +1009,10 @@ transform: scale(0.98);
 }
 
 
-.debug .testo{
+/* .debug .testo{
     height: 350px;
     background-color: red;
-} 
+}  */
 
 
 /* debug section  */
